@@ -62,7 +62,7 @@ Displays the calculated BMI value with a status like:
 ## 🖼️ Profile Section
 
 - Option to choose and view a profile photo (stored temporarily in RAM)
-- No extra details shown—just the image
+
 
 📷 
 
