@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calculate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/calculate_progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/calculate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculating your BMI...\nPlease wait"
+        android:textColor="#444444"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_below="@id/calculate_progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+</RelativeLayout>
